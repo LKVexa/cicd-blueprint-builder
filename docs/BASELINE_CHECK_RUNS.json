@@ -1,0 +1,40 @@
+{
+ "build": "JY-S007-P001/run-0001 (upgrade of build-0001)",
+ "version": "0.1.1-partial",
+ "environment": {
+  "executor": "claude cowork session 01SaQzDRzMFXvRabmCC6JDJD",
+  "python": "3.11.15",
+  "platform": "Linux-6.18.44-fc-v24-x86_64-with-glibc2.39",
+  "pyyaml": "6.0.3",
+  "location": "Anthropic cloud container (Linux)"
+ },
+ "checks": [
+  {
+   "id": "baseline-unit-tests",
+   "command": "python3 -m unittest discover -s tests -t .",
+   "result": "PASS 13/13 (unmodified baseline)",
+   "captured_at": "2026-09-14T18:50:15.923606+00:00"
+  },
+  {
+   "id": "defect-probes",
+   "command": "live probes: aliasing, malformed-shape crashes, error-contract, duplicate targets",
+   "result": "5 findings reproduced on baseline; all fixed and re-verified",
+   "captured_at": "2026-09-14T18:50:15.923606+00:00"
+  },
+  {
+   "id": "candidate-unit-tests",
+   "command": "python3 -m unittest discover -s tests -t .",
+   "result": "PASS 22/22 (final bytes)",
+   "captured_at": "2026-09-14T18:50:15.923606+00:00"
+  }
+ ],
+ "unrun_checks": [
+  "Windows-native launch UNRUN \u2014 no Windows runtime this session",
+  "independent review NOT PERFORMED",
+  "IaC format parsers",
+  "pipeline rendering",
+  "policy/secret subsystems",
+  "phase gates/readiness controls"
+ ],
+ "note": "Evidence current for these inputs on this host only."
+}

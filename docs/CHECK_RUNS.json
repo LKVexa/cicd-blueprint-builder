@@ -1,0 +1,15 @@
+{
+  "version": "0.1.2a1",
+  "date": "2026-09-23",
+  "python": "3.12.14",
+  "runtime_dependencies": [
+    "PyYAML==6.0.3",
+    "tomli==2.4.1"
+  ],
+  "platform": "Windows",
+  "tests": 59,
+  "failures": 0,
+  "errors": 0,
+  "wheel_test": "passed",
+  "remote_ci": "pending"
+}
