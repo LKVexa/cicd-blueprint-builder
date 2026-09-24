@@ -1,0 +1,9 @@
+CI/CD Blueprint Builder
+Copyright 2026 RUSSELL PHILIP SMITHSON
+
+Original project code and September 2026 modifications are licensed under the
+Apache License, Version 2.0. See LICENSE.
+
+No third-party code is vendored. Runtime dependencies PyYAML and Tomli are
+distributed separately under their MIT licenses; those licenses remain in force.
+See THIRD-PARTY-NOTICES.md.

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=78,<85"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cicd-blueprint-builder"
+version = "0.1.2a1"
+description = "Read-only repository definition parsing and reviewable CI/CD topology drafts"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE", "THIRD-PARTY-NOTICES.md"]
+authors = [{name = "RUSSELL PHILIP SMITHSON"}]
+dependencies = ["PyYAML==6.0.3", "tomli==2.4.1"]
+
+[tool.setuptools.packages.find]
+include = ["blueprint*"]
