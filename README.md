@@ -100,6 +100,6 @@ Every draft remains subject to human review.
 
 ## License
 
-Copyright 2026 **RUSSELL PHILIP SMITHSON**.
-[Apache License 2.0](LICENSE), with [NOTICE](NOTICE).
+Copyright (C) 2026 RUSSELL PHILIP SMITHSON.
+[GNU General Public License, version 3 only (GPL-3.0-only)](LICENSE), with [NOTICE](NOTICE) and [COPYRIGHT](COPYRIGHT).
 Dependencies retain their MIT licenses; see [third-party notices](THIRD-PARTY-NOTICES.md).
